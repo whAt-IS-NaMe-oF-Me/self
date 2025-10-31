@@ -314,10 +314,10 @@ code {
 }
 
 #sicily_chan {
-	left: 0px;
+	left: auto;
 	right: auto;
 	top: auto;
-	bottom: 0px;
+	bottom: auto;
 	position: fixed;
 }
 
