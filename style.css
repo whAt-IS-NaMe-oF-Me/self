@@ -314,7 +314,7 @@ code {
 }
 
 #sicily_chan {
-	left:  window.screen.width - 400;
+	left:  1000px;
 	right: auto;
 	top:   0;
 	bottom:auto;
