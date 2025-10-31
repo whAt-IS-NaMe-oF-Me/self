@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+</head>
+  <div id="toc">
+    <script>
+      window.onload = function() {
+          var toc = document.getElementById('toc');
+          var headings = document.querySelectorAll('h1, h2, h3'); // 选择所有h1, h2, h3元素
+          var ul = document.createElement('ul'); // 创建一个ul元素
+          toc.appendChild(ul); // 将ul添加到toc中
+      
+          headings.forEach(function(heading) {
+              var li = document.createElement('li'); // 创建一个li元素
+              li.innerHTML = heading.innerHTML; // 设置li的文本内容为标题的文本
+              ul.appendChild(li); // 将li添加到ul中
+          });
+      };
+    </script>
+
+  </div>
+<body>
+  
+</body>
