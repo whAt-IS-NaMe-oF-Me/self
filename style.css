@@ -314,9 +314,9 @@ code {
 }
 
 #sicily_chan {
-	left:  window.screen.width ;
+	left:  window.screen.width - 400;
 	right: auto;
-	top:   window.screen.height;
+	top:   0;
 	bottom:auto;
 	position: fixed;
 }
