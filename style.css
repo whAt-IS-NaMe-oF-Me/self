@@ -316,8 +316,8 @@ code {
 #sicily_chan {
 	left:  window.screen.width ;
 	right: auto;
-	top:   auto;
-	bottom:window.screen.height;
+	top:   window.screen.height;
+	bottom:auto;
 	position: fixed;
 }
 
